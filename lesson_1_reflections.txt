@@ -1,0 +1,44 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+Viewing the diff between two versions of a file filterd the lines that I needed to compare down to certain lines that were different from each other. This dramatically reduced the amount of lines I needed to view and compare which made the search more productive.
+
+How cold having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+It provides a base to debug issues that arise within your code which helps to efficiently solve problems. It also provides a safety net knowing that you can always revert back to a working version which promotes further coding within a file.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google docs does?
+
+Pros:
+	- meaningful versions to mark a logical change within your file
+	- ability to isolate commits to one logical change
+
+Cons:
+	- allows for user error i.e., user could forget to mark an isolated logical entry and it gets bundles with other modules.
+	- 
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+
+
+
+How can you use the commands git log and git diff to view the history of files?
+
+git log displays all of the commit history of the repository and provides you with the id values for each commit to use when you want to compare each commit. git diff displays all of the changes made between each commit.
+
+How might using version control make you more confident to make changes that could break something?
+
+Git provides a safety to backtrack to previous versions in case something goes wrong.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+I would like to use git for version-control for my personal projects.
+
+
+
+Commands learned in lesson 1:
+
+git log : this command displays the history of the repository
+
+git diff <first_id> <second_id> : this command displays the difference between two commits
+
+git checkout <commit_id> :  this command sets the requested id to the current commit to run the application or to 								make changes within the repository.
