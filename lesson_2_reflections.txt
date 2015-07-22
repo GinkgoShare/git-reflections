@@ -1,0 +1,19 @@
+What happens when you initialize a repository? Why do you neeed to do it?
+
+When you initialize a git repository, the utility creates the necessary metadata needed to track its history.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+The staging area allows a user to choose what specific contents of the working directory they would like to commit to the repository.
+
+
+
+git commands learned in lesson 2:
+
+	git init : turns an existing directory into a git repository
+
+	git status : shows which files have changed since the last commit, shows the most recent commit
+
+	git add : adds chosen files to the staging area prepping for a commit
+
+	git commit -m "Commit message" | git commit : 
