@@ -6,14 +6,22 @@ How is the staging area different from the working directory and the repository?
 
 The staging area allows a user to choose what specific contents of the working directory they would like to commit to the repository.
 
+How can you use the staging area to make sure you have one commit per logical change?
+
+You can choose to add whichever files you want to commit from your working directory and hold them in the the staging area. Once you commit, git will commit only those files previously selected.
+
 
 
 git commands learned in lesson 2:
 
-	git init : turns an existing directory into a git repository
+	git init : 										turns an existing directory into a git repository
 
-	git status : shows which files have changed since the last commit, shows the most recent commit
+	git status : 									shows which files have changed since the last commit, shows the most 													recent commit
 
-	git add : adds chosen files to the staging area prepping for a commit
+	git add : 										adds chosen files to the staging area prepping for a commit
 
-	git commit -m "Commit message" | git commit : 
+	git commit -m "Commit message" | git commit :	checks in the files held in the staging area to the attached "HEAD"        												   (labeled branch)
+
+	git reset --hard : 								discards changes within the working directory or the staging area (THIS IS 												   IRREVERSIBLE!!!)
+
+	git branch <branch_label> : 					running this command without arguments just displays the current branches 												  of the repository, when you run this command with the argument, git 														creates a new branch by the label you specified.
