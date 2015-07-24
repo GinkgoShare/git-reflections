@@ -37,8 +37,14 @@ I would like to use git for version-control for my personal projects.
 
 Commands learned in lesson 1:
 
-git log : this command displays the history of the repository
+git log : 							this command displays the history of the repository
 
-git diff <first_id> <second_id> : this command displays the difference between two commits
+git diff <first_id> <second_id> : 	this command displays the difference between two commits 
 
-git checkout <commit_id> :  this command sets the requested id to the current commit to run the application or to 								make changes within the repository.
+									git diff <no_arg> displays the differences between the working directory and the staging area
+
+									git diff staged displays the differences between the staging area and the most recent commit
+
+git checkout <commit_id> :  		this command sets the requested id to the current commit to run the application or to 										make changes within the repository.
+
+git checkout master : 				sets the requested id to the master
