@@ -20,7 +20,7 @@ It is a good display of what commits are visible to which branches.
 
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 
-Te result is a branch that contains the same logic of both files. One branch is chosen to be the main branch of the merge and the other has its label deleted. All commits from both branches get merged and sorted based on their timestamp. This makes every commit brom both branch visible to the main branch.
+Te result is a branch that contains the same logic of both files. One branch is chosen, by being first on the list, to be the main branch. All commits from both branches get merged and sorted based on their timestamp. This makes every commit brom both branch visible to the main branch.
 
 
 
