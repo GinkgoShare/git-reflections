@@ -39,6 +39,8 @@ Commands learned in lesson 1:
 
 git log : 													this command displays the history of the repository
 
+git log -n [0-9]+ :											thos only displays the specified number of commits
+
 git log --graph --oneline <first_branch> <second_branch> :	--graph displays the structure of branches, --oneline shortens the 															   output
 
 git diff <first_id> <second_id> : 							this command displays the difference between two commits 
