@@ -18,6 +18,9 @@ How do the diagrams help you visualize the branch structure?
 
 It is a good display of what commits are visible to which branches.
 
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+Te result is a branch that contains the same logic of both files. One branch is chosen to be the main branch of the merge and the other has its label deleted. All commits from both branches get merged and sorted based on their timestamp. This makes every commit brom both branch visible to the main branch.
 
 
 
@@ -36,10 +39,14 @@ git commands learned in lesson 2:
 
 	git branch <branch_label> : 					running this command without arguments just displays the current branches 												  of the repository, when you run this command with the argument, git 														creates a new branch by the label you specified.
 
+	git branch -d branch_label>						deletes a branch label but retains the branch commits
+
 	git checkout <commit_id> :  					this command sets the requested id to the current commit to run the 													application or to make changes within the repository.
 
 	git checkout master : 							sets the requested id to the master
 
 	git checkout -b <new_branch_name> : 			creates a new branch and checks it out at the same time
 
-	
+	git merge <first_branch> <second_branch> :		second_branch get merged into first
+
+	git show :										shows you differences introduced compared to its parent branch
