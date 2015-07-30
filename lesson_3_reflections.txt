@@ -3,6 +3,11 @@ When would you want to use a remote repository rather than keeping all your work
 You would want to use remote repositories when you are collaborating on a project with other Git users. It is also a great 
 way to showcase you work.
 
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+
+For control, you wouldn't want GitHub to override changes you are making on your local repo. Also, when you are working on a module of a project, you want to maintain the context in which you are working in until you are ready to add external factors that could effect your work.
+
+
 
 git commands learned in lesson 3:
 
