@@ -5,7 +5,7 @@ way to showcase you work.
 
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 
-For control, you wouldn't want GitHub to override changes you are making on your local repo. Also, when you are working on a module of a project, you want to maintain the context in which you are working in until you are ready to add external factors that could effect your work.
+For control, you wouldn't want GitHub to override changes you are making on your local repo and you wouldn't want to repeatedly make decisions about which parts of files you would want to merge together without being ready with a complete commit on the local end. When you are working on a module of a project, you want to maintain the context in which you are working in until you are ready to add external factors that could effect your work.
 
 Describe the differences between forks, clones, and branches. When would you use one instead of another?
 
