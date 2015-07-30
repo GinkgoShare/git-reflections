@@ -2,3 +2,16 @@ When would you want to use a remote repository rather than keeping all your work
 
 You would want to use remote repositories when you are collaborating on a project with other Git users. It is also a great 
 way to showcase you work.
+
+
+git commands learned in lesson 3:
+
+	git remote :						to view and create remotes
+
+	git remote add <name> <url> :		to add a repository on GitHub as a remote, name to refer to the repository on GitHub, url 								  from remote repository
+
+	git remote -v :						git remote will output more info
+
+	git push <remote> <local_branch> : 	send changes to remote repository, branch you want to send
+
+	git pull <remote> <local_branch> : 	retrieve changes from the remote branch 
