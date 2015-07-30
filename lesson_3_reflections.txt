@@ -1,0 +1,4 @@
+When would you want to use a remote repository rather than keeping all your work local?
+
+You would want to use remote repositories when you are collaborating on a project with other Git users. It is also a great 
+way to showcase you work.
