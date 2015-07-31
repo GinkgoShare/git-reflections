@@ -11,6 +11,11 @@ Describe the differences between forks, clones, and branches. When would you use
 
 Forks clones a repository from another GitHub account to my remote GitHub account. Clones copy a remote repository from my GitHub account and creates a local repository where I can work offline. Branches copies an existing and local branch within a local repository into another separate local branch that allows me to switch context on what I'm working on within a project.
 
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+You can keep remote updates that you plan to merge your work into on a local branch which would allow you to merge them 
+offline.
+
 
 
 git commands learned in lesson 3:
@@ -23,4 +28,10 @@ git commands learned in lesson 3:
 
 	git push <remote> <local_branch> : 	send changes to remote repository, branch you want to send
 
-	git pull <remote> <local_branch> : 	retrieve changes from the remote branch 
+	git pull <remote> <local_branch> : 	retrieve changes from the remote branch
+
+	git clone <url> :					copies a repository from GitHub to your local active directory. sets up a remote 										(origin) for you on the GitHub server
+
+	git fetch <remote> :				updates the local copy of the remote branch
+
+	git pull origin master == git fetch origin + git merge master origin/master 	/* origin/master is the local copy of the 																				   * remote branch */
