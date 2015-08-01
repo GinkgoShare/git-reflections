@@ -18,7 +18,11 @@ offline.
 
 How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 
-I would collaborate using either an smtp server or ftp server to send and receive files within a project. This way would make things easier by sending files directly without the need of an interface to command the transaction, however it would be difficult to navigate the files and spot the changes especially if there are many collaboraters working on the same project. Creating a timeline would be difficult.  
+I would collaborate using either an smtp server or ftp server to send and receive files within a project. This way would make things easier by sending files directly without the need of an interface to command the transaction, however it would be difficult to navigate the files and spot the changes especially if there are many collaboraters working on the same project. Creating a timeline would be difficult.
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+Anytime you are presenting logical changes to a project you will want to make a new branch for it. This allows those changes to be appropriately reviewed before updating the main master branch. Working directly from master provides a quick and easy method for updating changes within the branch, however mistakes are inevitable and this method does not provide enough protection from corrupting the master branch, this is where creating branches are recommended.
 
 
 
