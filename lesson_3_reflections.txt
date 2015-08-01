@@ -16,6 +16,10 @@ What is the benefit of having a copy of the last known state of the remote store
 You can keep remote updates that you plan to merge your work into on a local branch which would allow you to merge them 
 offline.
 
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+I would collaborate using either an smtp server or ftp server to send and receive files within a project. This way would make things easier by sending files directly without the need of an interface to command the transaction, however it would be difficult to navigate the files and spot the changes especially if there are many collaboraters working on the same project. Creating a timeline would be difficult.  
+
 
 
 git commands learned in lesson 3:
