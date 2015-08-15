@@ -47,7 +47,7 @@ git commands learned in lesson 2:
 
 	git branch <branch_label> : 					running this command without arguments just displays the current branches 												  of the repository, when you run this command with the argument, git 														creates a new branch by the label you specified.
 
-	git branch -d branch_label>						deletes a branch label but retains the branch commits
+	git branch -d <branch_label>						deletes a branch label but retains the branch commits
 
 	git checkout <commit_id> :  					this command sets the requested id to the current commit to run the 													application or to make changes within the repository.
 
